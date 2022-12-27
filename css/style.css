@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+head {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: #110000;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 1rem;
+    color: #110000;
+}
+
+
+.nav a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.logo img {
+    max-width: 100px;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.nav-right {
+
+}
+
+.nav-right img {
+    max-width: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.nav-right img:hover {
+    cursor: pointer;
+}
+
+.nav-right button {
+    border-radius: 12px;
+    width: 100px;
+    background-color: white;
+    padding: 10px 15px;
+    transition-duration: 0.4s;
+    border: 2px dashed #110000;
+}
+
+.nav-right button:hover {
+    cursor: pointer;
+    background-color: lightpink;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+}
+
+.acc_desc {
+    visibility: hidden;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1 {
+    text-align:center;
+    font-size: 42px;
+    color:#FFC300;
+    letter-spacing: 1em;
+}
+
+.new {
+    display: grid;
+    box-sizing: border-box;
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+}
+
+.new img {
+    height: auto;
+    width: 95%;
+}
+
+.new h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #73C6B6;
+    padding: 5px;
+}
+
+.new h2 a:visited {
+    text-align: center;
+    text-decoration: underline;
+    color: #73C6B6;
+    padding: 5px;}
+
+.new h3 {
+    text-align: center;
+    color: #F4D03F;
+    font-size: 18px;
+}
+
+.new p {
+    padding: 5px;
+    color: #0B5345;
+}
+
+.sale {
+    display: grid;
+    box-sizing: border-box;
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+}
+
+.sale img {
+    height: auto;
+    width: 95%;
+}
+
+.sale h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #73C6B6;
+    padding: 5px;
+}
+
+.sale h2 a:visited {
+    text-align: center;
+    text-decoration: underline;
+    color: #73C6B6;
+    padding: 5px;}
+
+.sale h3 {
+    text-align: center;
+    color: #F4D03F;
+    font-size: 18px;
+}
+
+.sale p {
+    padding: 5px;
+    color: #0B5345;
+}
+
+footer {
+    background-color:#110000;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+footer img {
+    max-width: 30px;
+}
